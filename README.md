@@ -38,8 +38,3 @@ PRD-aligned full-stack training build with public visitor experience, subscriber
 - Admin draws: `/api/admin/draws`, `/api/admin/draws/simulate`, `/api/admin/draws/publish`, `/api/admin/draws/run`
 - Admin winners: `/api/admin/winners`, `/api/admin/winners/:id` (PATCH)
 - Admin charities: `/api/admin/charities` (POST), `/api/admin/charities/:id` (PATCH, DELETE)
-
-## Admin Credentials
-
-- Email: `admin@golfcharity.com`
-- Password: `admin123`
