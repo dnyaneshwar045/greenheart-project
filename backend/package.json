@@ -1,0 +1,13 @@
+{
+  "name": "green-heart-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Dependency-free API for the Green Heart full-stack app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "mongodb": "^7.1.1"
+  }
+}

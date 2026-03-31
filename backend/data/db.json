@@ -1,0 +1,813 @@
+{
+  "users": [
+    {
+      "id": "user_mnd40cw4c4493c",
+      "name": "Platform Admin",
+      "email": "admin@golfcharity.com",
+      "role": "admin",
+      "salt": "ba9eee0b4e38599aeec51a45768f431f",
+      "passwordHash": "83fdd858a5ec03693d569c6265c91968343f07db3910fbf6df932c7702399ffae292189ae1ab5559544420d13721b03720a5d3768940f06d7753f2b84c22bc36",
+      "createdAt": "2026-03-30T11:33:19.300Z"
+    },
+    {
+      "id": "user_mnd40dg5ba766d",
+      "name": "Member One",
+      "email": "member1774870399803@test.com",
+      "role": "member",
+      "salt": "1f0609f565256f1a264e17db94ad8d95",
+      "passwordHash": "1946b8e16e9aa68f2849f9a1a955e3f2f01eb364fb3bc6bbc46d5645e104bfd972e0556cf410a66d0c357efd1ec1221edd7c1837a71f4afaddc59f04f6cd8497",
+      "createdAt": "2026-03-30T11:33:20.021Z"
+    },
+    {
+      "id": "user_mnd4egs1d3897b",
+      "name": "INR User",
+      "email": "inr1774871056586@test.com",
+      "role": "member",
+      "salt": "51ea9cdfb485a81a704a0779f0105487",
+      "passwordHash": "27830e30029ae41a87e5a92e6e3483aca669d993f8cfd70de48382c2d2aaef0b920c821f3cfddf21124b2a6130e0d16ee09598313fd9a9f6af4ab1aa26392666",
+      "createdAt": "2026-03-30T11:44:17.521Z"
+    },
+    {
+      "id": "user_mnd5dzi9a1bc8b",
+      "name": "PRD User",
+      "email": "prd1774872714523@test.com",
+      "role": "member",
+      "salt": "ae35b547e78999b0f0b6d91daa41b68d",
+      "passwordHash": "0238add3aab6a918e41cb177b4d47ccb17f49f1da8a32651da6f6a9cecc94946112bc151b992fa2ccc4938566d8908f2daa3febbf21c1e945ac774caf046de18",
+      "createdAt": "2026-03-30T12:11:54.753Z",
+      "profile": {
+        "preferredCharityId": null,
+        "contributionPercentage": 10
+      }
+    },
+    {
+      "id": "user_mnd5eine7a5175",
+      "name": "PRD User",
+      "email": "prd1774872739344@test.com",
+      "role": "member",
+      "salt": "8ea2d1340a2289e41f93dc1b20dc87ca",
+      "passwordHash": "eee8647a3ebcef8fc8f0208e385a9d969b0ac8ecc9a032df1b279a15b1e996370764bade53a7fde7f3b5ad8febc6e7e5abed3eb42741b8a9aa3e7cc6cb73f17d",
+      "createdAt": "2026-03-30T12:12:19.562Z",
+      "profile": {
+        "preferredCharityId": "charity_junior_golf",
+        "contributionPercentage": 15
+      }
+    },
+    {
+      "id": "user_mnd5uxfq5ff848",
+      "name": "Full User",
+      "email": "full1774873504914@test.com",
+      "role": "member",
+      "salt": "011dd901bef2895870a733cfc0e47bf5",
+      "passwordHash": "236d857e940085bc390e4b7b67928316fbb3277ff0a839029f39e6dc7df5e40e874fa2a3f004439101b407e4ae0c43ffe45f0585e3e5f5155bc69dced328565e",
+      "createdAt": "2026-03-30T12:25:05.223Z",
+      "profile": {
+        "preferredCharityId": "charity_junior_golf",
+        "contributionPercentage": 20
+      }
+    },
+    {
+      "id": "user_mndc1145415dae",
+      "name": "Jone Cena",
+      "email": "abc@gmail.com",
+      "role": "member",
+      "salt": "3dc932f6822f37e6f57d4da35cf6ae1e",
+      "passwordHash": "42728c836bcc3a3115467e3962caabbabad312fec7687d61012eb7d84d0dbb7ae84df70e142ba7e369cbabe2e873c46a3e24d82d4ea1096b8811ee3c9feece9b",
+      "createdAt": "2026-03-30T15:17:47.622Z",
+      "profile": {
+        "preferredCharityId": "charity_junior_golf",
+        "contributionPercentage": 10
+      }
+    },
+    {
+      "id": "user_mne4huwk097de8",
+      "name": "Aman Sharma",
+      "email": "abcd@gmail.com",
+      "role": "member",
+      "salt": "a2e459f452ebbcb1b9b810034fd093c9",
+      "passwordHash": "8baf029b52c89f3681e144fa68a9d3b4ab0078de85b1e4656fdb46b5f8d42a3cb6fe30fc042bdc09b708555c595c0d6cb9c4cb410dd38d2dc7692b4eb2ab0fd1",
+      "createdAt": "2026-03-31T04:34:41.972Z",
+      "profile": {
+        "preferredCharityId": "charity_junior_golf",
+        "contributionPercentage": 10
+      }
+    },
+    {
+      "id": "user_mne5fj4e63b7db",
+      "name": "Dnyaneshwar Jadhav",
+      "email": "dnyaneshwarjk123@gmail.com",
+      "role": "member",
+      "salt": "47cd5946e146124fd5a6bc882ca05c56",
+      "passwordHash": "5e9e2debc00e10909c902241de9cc3c4663c7b3b1706a33ed65af438ef346041496e6cfbd28e2b9a534538926cebfe302f81b57f0760214faefd48dc9dcf832d",
+      "createdAt": "2026-03-31T05:00:53.007Z",
+      "profile": {
+        "preferredCharityId": "charity_junior_golf",
+        "contributionPercentage": 10
+      }
+    }
+  ],
+  "subscriptions": [
+    {
+      "id": "sub_mnd40dhw016aba",
+      "userId": "user_mnd40dg5ba766d",
+      "plan": "basic",
+      "planLabel": "Basic Monthly",
+      "amount": 29,
+      "currency": "USD",
+      "status": "active",
+      "charityId": "charity_junior_golf",
+      "createdAt": "2026-03-30T11:33:20.084Z",
+      "startDate": "2026-03-30T11:33:20.084Z",
+      "nextBillingDate": "2026-04-30T11:33:20.084Z",
+      "lastCheckedAt": "2026-03-31T09:44:14.421Z"
+    },
+    {
+      "id": "sub_mnd4egugcc2e02",
+      "userId": "user_mnd4egs1d3897b",
+      "plan": "monthly",
+      "planLabel": "Monthly",
+      "amount": 199,
+      "currency": "INR",
+      "status": "replaced",
+      "charityId": "charity_junior_golf",
+      "createdAt": "2026-03-30T11:44:17.608Z",
+      "startDate": "2026-03-30T11:44:17.608Z",
+      "nextBillingDate": "2026-04-30T11:44:17.608Z",
+      "cancelledAt": "2026-03-30T11:44:17.613Z"
+    },
+    {
+      "id": "sub_mnd4egul9b548f",
+      "userId": "user_mnd4egs1d3897b",
+      "plan": "yearly",
+      "planLabel": "Yearly",
+      "amount": 1999,
+      "currency": "INR",
+      "status": "active",
+      "charityId": "charity_junior_golf",
+      "createdAt": "2026-03-30T11:44:17.613Z",
+      "startDate": "2026-03-30T11:44:17.613Z",
+      "nextBillingDate": "2027-03-30T11:44:17.613Z",
+      "lastCheckedAt": "2026-03-31T09:44:14.421Z"
+    },
+    {
+      "id": "sub_mnd5eio9917813",
+      "userId": "user_mnd5eine7a5175",
+      "plan": "monthly",
+      "planLabel": "Monthly",
+      "amount": 199,
+      "currency": "INR",
+      "charityId": "charity_junior_golf",
+      "charityPercentage": 15,
+      "status": "active",
+      "autoRenew": true,
+      "cancelAtPeriodEnd": false,
+      "createdAt": "2026-03-30T12:12:19.594Z",
+      "startDate": "2026-03-30T12:12:19.593Z",
+      "nextBillingDate": "2026-04-30T12:12:19.593Z",
+      "renewalCount": 0,
+      "totalCharged": 199,
+      "lastCheckedAt": "2026-03-31T09:44:14.421Z"
+    },
+    {
+      "id": "sub_mnd5uxhi4be7c7",
+      "userId": "user_mnd5uxfq5ff848",
+      "plan": "monthly",
+      "planLabel": "Monthly",
+      "amount": 199,
+      "currency": "INR",
+      "charityId": "charity_junior_golf",
+      "charityPercentage": 20,
+      "status": "active",
+      "autoRenew": true,
+      "cancelAtPeriodEnd": false,
+      "createdAt": "2026-03-30T12:25:05.286Z",
+      "startDate": "2026-03-30T12:25:05.286Z",
+      "nextBillingDate": "2026-04-30T12:25:05.286Z",
+      "renewalCount": 0,
+      "totalCharged": 199,
+      "lastCheckedAt": "2026-03-31T09:44:14.421Z",
+      "updatedAt": "2026-03-30T12:25:05.623Z"
+    },
+    {
+      "id": "sub_mndbaq0t0fac2c",
+      "userId": "user_mndbaq0i596298",
+      "plan": "yearly",
+      "planLabel": "Yearly",
+      "amount": 1999,
+      "currency": "INR",
+      "charityId": "charity_junior_golf",
+      "charityPercentage": 10,
+      "status": "cancel_pending",
+      "autoRenew": true,
+      "cancelAtPeriodEnd": true,
+      "createdAt": "2026-03-30T14:57:20.189Z",
+      "startDate": "2026-03-30T14:57:20.189Z",
+      "nextBillingDate": "2027-03-30T14:57:20.189Z",
+      "renewalCount": 0,
+      "totalCharged": 1999,
+      "lastCheckedAt": "2026-03-30T14:57:27.460Z",
+      "cancelledAt": "2026-03-30T14:57:27.460Z"
+    },
+    {
+      "id": "sub_mndc114e42ede8",
+      "userId": "user_mndc1145415dae",
+      "plan": "yearly",
+      "planLabel": "Yearly",
+      "amount": 1999,
+      "currency": "INR",
+      "charityId": "charity_junior_golf",
+      "charityPercentage": 10,
+      "status": "active",
+      "autoRenew": true,
+      "cancelAtPeriodEnd": false,
+      "createdAt": "2026-03-30T15:17:47.630Z",
+      "startDate": "2026-03-30T15:17:47.630Z",
+      "nextBillingDate": "2027-03-30T15:17:47.630Z",
+      "renewalCount": 0,
+      "totalCharged": 1999,
+      "lastCheckedAt": "2026-03-31T09:44:14.421Z"
+    },
+    {
+      "id": "sub_mne4huwu6898c8",
+      "userId": "user_mne4huwk097de8",
+      "plan": "yearly",
+      "planLabel": "Yearly",
+      "amount": 1999,
+      "currency": "INR",
+      "charityId": "charity_junior_golf",
+      "charityPercentage": 10,
+      "status": "replaced",
+      "autoRenew": true,
+      "cancelAtPeriodEnd": false,
+      "createdAt": "2026-03-31T04:34:41.982Z",
+      "startDate": "2026-03-31T04:34:41.982Z",
+      "nextBillingDate": "2027-03-31T04:34:41.982Z",
+      "renewalCount": 0,
+      "totalCharged": 1999,
+      "lastCheckedAt": "2026-03-31T09:46:20.334Z",
+      "cancelledAt": "2026-03-31T09:46:20.334Z"
+    },
+    {
+      "id": "sub_mne5fj4t622bef",
+      "userId": "user_mne5fj4e63b7db",
+      "plan": "yearly",
+      "planLabel": "Yearly",
+      "amount": 1999,
+      "currency": "INR",
+      "charityId": "charity_junior_golf",
+      "charityPercentage": 10,
+      "status": "active",
+      "autoRenew": true,
+      "cancelAtPeriodEnd": false,
+      "createdAt": "2026-03-31T05:00:53.021Z",
+      "startDate": "2026-03-31T05:00:53.021Z",
+      "nextBillingDate": "2027-03-31T05:00:53.021Z",
+      "renewalCount": 0,
+      "totalCharged": 1999,
+      "lastCheckedAt": "2026-03-31T09:44:14.421Z"
+    },
+    {
+      "id": "sub_mne5xnof0a61be",
+      "userId": "user_mne5xno52f00f9",
+      "plan": "monthly",
+      "planLabel": "Monthly",
+      "amount": 199,
+      "currency": "INR",
+      "charityId": "charity_junior_golf",
+      "charityPercentage": 10,
+      "status": "active",
+      "autoRenew": true,
+      "cancelAtPeriodEnd": false,
+      "createdAt": "2026-03-31T05:14:58.719Z",
+      "startDate": "2026-03-31T05:14:58.719Z",
+      "nextBillingDate": "2026-05-01T05:14:58.719Z",
+      "renewalCount": 0,
+      "totalCharged": 199,
+      "lastCheckedAt": "2026-03-31T09:44:14.421Z"
+    },
+    {
+      "id": "sub_mne8iv3u6b5f6e",
+      "userId": "user_mne8iv3jb3d1a7",
+      "plan": "yearly",
+      "planLabel": "Yearly",
+      "amount": 1999,
+      "currency": "INR",
+      "charityId": "charity_junior_golf",
+      "charityPercentage": 10,
+      "status": "active",
+      "autoRenew": true,
+      "cancelAtPeriodEnd": false,
+      "createdAt": "2026-03-31T06:27:27.354Z",
+      "startDate": "2026-03-31T06:27:27.354Z",
+      "nextBillingDate": "2027-03-31T06:27:27.354Z",
+      "renewalCount": 0,
+      "totalCharged": 1999,
+      "lastCheckedAt": "2026-03-31T09:44:14.421Z"
+    },
+    {
+      "id": "sub_mneewitbbc8362",
+      "userId": "user_mneewisx8a551e",
+      "plan": "yearly",
+      "planLabel": "Yearly",
+      "amount": 1999,
+      "currency": "INR",
+      "charityId": "charity_junior_golf",
+      "charityPercentage": 10,
+      "status": "active",
+      "autoRenew": true,
+      "cancelAtPeriodEnd": false,
+      "createdAt": "2026-03-31T09:26:02.303Z",
+      "startDate": "2026-03-31T09:26:02.303Z",
+      "nextBillingDate": "2027-03-31T09:26:02.303Z",
+      "renewalCount": 0,
+      "totalCharged": 1999,
+      "lastCheckedAt": "2026-03-31T09:44:14.421Z"
+    },
+    {
+      "id": "sub_mnefmmnicfdcba",
+      "userId": "user_mne4huwk097de8",
+      "plan": "yearly",
+      "planLabel": "Yearly",
+      "amount": 1999,
+      "currency": "INR",
+      "charityId": "charity_junior_golf",
+      "charityPercentage": 10,
+      "status": "replaced",
+      "autoRenew": true,
+      "cancelAtPeriodEnd": false,
+      "createdAt": "2026-03-31T09:46:20.335Z",
+      "startDate": "2026-03-31T09:46:20.334Z",
+      "nextBillingDate": "2027-03-31T09:46:20.334Z",
+      "renewalCount": 0,
+      "totalCharged": 1999,
+      "lastCheckedAt": "2026-03-31T09:46:25.850Z",
+      "cancelledAt": "2026-03-31T09:46:25.851Z"
+    },
+    {
+      "id": "sub_mnefmqwraf446b",
+      "userId": "user_mne4huwk097de8",
+      "plan": "monthly",
+      "planLabel": "Monthly",
+      "amount": 199,
+      "currency": "INR",
+      "charityId": "charity_junior_golf",
+      "charityPercentage": 10,
+      "status": "replaced",
+      "autoRenew": true,
+      "cancelAtPeriodEnd": false,
+      "createdAt": "2026-03-31T09:46:25.852Z",
+      "startDate": "2026-03-31T09:46:25.851Z",
+      "nextBillingDate": "2026-05-01T09:46:25.851Z",
+      "renewalCount": 0,
+      "totalCharged": 199,
+      "lastCheckedAt": "2026-03-31T09:46:27.244Z",
+      "cancelledAt": "2026-03-31T09:46:27.244Z"
+    },
+    {
+      "id": "sub_mnefmrzg618521",
+      "userId": "user_mne4huwk097de8",
+      "plan": "yearly",
+      "planLabel": "Yearly",
+      "amount": 1999,
+      "currency": "INR",
+      "charityId": "charity_junior_golf",
+      "charityPercentage": 10,
+      "status": "active",
+      "autoRenew": true,
+      "cancelAtPeriodEnd": false,
+      "createdAt": "2026-03-31T09:46:27.244Z",
+      "startDate": "2026-03-31T09:46:27.244Z",
+      "nextBillingDate": "2027-03-31T09:46:27.244Z",
+      "renewalCount": 0,
+      "totalCharged": 1999,
+      "lastCheckedAt": "2026-03-31T09:50:52.401Z"
+    }
+  ],
+  "scores": [
+    {
+      "id": "score_mnd40di867de6b",
+      "userId": "user_mnd40dg5ba766d",
+      "score": 45,
+      "playedOn": "2026-03-30T11:33:20.081Z",
+      "createdAt": "2026-03-30T11:33:20.096Z",
+      "updatedAt": "2026-03-30T12:25:05.631Z"
+    },
+    {
+      "id": "score_mnd5eioif657c1",
+      "userId": "user_mnd5eine7a5175",
+      "score": 34,
+      "date": "2026-03-01T00:00:00.000Z",
+      "createdAt": "2026-03-30T12:12:19.602Z"
+    },
+    {
+      "id": "score_mnd5uxjje94c09",
+      "userId": "user_mnd5uxfq5ff848",
+      "score": 1,
+      "date": "2026-03-29T12:25:05.334Z",
+      "createdAt": "2026-03-30T12:25:05.359Z"
+    },
+    {
+      "id": "score_mnd5uxjs651cb0",
+      "userId": "user_mnd5uxfq5ff848",
+      "score": 2,
+      "date": "2026-03-28T12:25:05.367Z",
+      "createdAt": "2026-03-30T12:25:05.368Z"
+    },
+    {
+      "id": "score_mnd5uxjxeaf68d",
+      "userId": "user_mnd5uxfq5ff848",
+      "score": 3,
+      "date": "2026-03-27T12:25:05.372Z",
+      "createdAt": "2026-03-30T12:25:05.373Z"
+    },
+    {
+      "id": "score_mnd5uxk26995b9",
+      "userId": "user_mnd5uxfq5ff848",
+      "score": 4,
+      "date": "2026-03-26T12:25:05.377Z",
+      "createdAt": "2026-03-30T12:25:05.378Z"
+    },
+    {
+      "id": "score_mnd5uxk764ac96",
+      "userId": "user_mnd5uxfq5ff848",
+      "score": 5,
+      "date": "2026-03-25T12:25:05.382Z",
+      "createdAt": "2026-03-30T12:25:05.383Z"
+    },
+    {
+      "id": "score_mndc1lufc6cc75",
+      "userId": "user_mndc1145415dae",
+      "score": 23,
+      "date": "2026-03-30T15:18:14.480Z",
+      "createdAt": "2026-03-30T15:18:14.488Z"
+    },
+    {
+      "id": "score_mndc1sj1467eb0",
+      "userId": "user_mndc1145415dae",
+      "score": 24,
+      "date": "2026-03-23T00:00:00.000Z",
+      "createdAt": "2026-03-30T15:18:23.149Z"
+    },
+    {
+      "id": "score_mndc1y4xc5465e",
+      "userId": "user_mndc1145415dae",
+      "score": 34,
+      "date": "2026-03-19T00:00:00.000Z",
+      "createdAt": "2026-03-30T15:18:30.417Z"
+    },
+    {
+      "id": "score_mndc24ff33ca3c",
+      "userId": "user_mndc1145415dae",
+      "score": 23,
+      "date": "2026-03-04T00:00:00.000Z",
+      "createdAt": "2026-03-30T15:18:38.571Z"
+    },
+    {
+      "id": "score_mne3q1g560b652",
+      "userId": "user_mndc1145415dae",
+      "score": 36,
+      "date": "2026-03-03T00:00:00.000Z",
+      "createdAt": "2026-03-31T04:13:04.101Z"
+    },
+    {
+      "id": "score_mnefrqr5d3abea",
+      "userId": "user_mne4huwk097de8",
+      "score": 30,
+      "date": "2026-03-03T00:00:00.000Z",
+      "createdAt": "2026-03-31T09:50:18.930Z"
+    },
+    {
+      "id": "score_mnefrxo68b0cc4",
+      "userId": "user_mne4huwk097de8",
+      "score": 34,
+      "date": "2026-03-16T00:00:00.000Z",
+      "createdAt": "2026-03-31T09:50:27.894Z"
+    },
+    {
+      "id": "score_mnefs4g50eee07",
+      "userId": "user_mne4huwk097de8",
+      "score": 43,
+      "date": "2026-03-03T00:00:00.000Z",
+      "createdAt": "2026-03-31T09:50:36.677Z"
+    },
+    {
+      "id": "score_mnefsawk6bb47e",
+      "userId": "user_mne4huwk097de8",
+      "score": 23,
+      "date": "2026-03-01T00:00:00.000Z",
+      "createdAt": "2026-03-31T09:50:45.045Z"
+    },
+    {
+      "id": "score_mnefsgkacf722c",
+      "userId": "user_mne4huwk097de8",
+      "score": 32,
+      "date": "2026-03-31T09:50:52.371Z",
+      "createdAt": "2026-03-31T09:50:52.378Z"
+    }
+  ],
+  "charities": [
+    {
+      "id": "charity_junior_golf",
+      "name": "Junior Golf Access Fund",
+      "description": "Supports youth access to golf coaching and local clubs.",
+      "totalRaised": 1931.35,
+      "isActive": true
+    },
+    {
+      "id": "charity_green_course",
+      "name": "Green Course Restoration",
+      "description": "Funds sustainable water and soil improvements in public courses.",
+      "totalRaised": 0,
+      "isActive": true
+    }
+  ],
+  "draws": [
+    {
+      "id": "draw_mnd40dnq7c112a",
+      "month": 3,
+      "year": 2026,
+      "mode": "random",
+      "winningNumbers": [
+        8,
+        17,
+        21,
+        38,
+        43
+      ],
+      "winnerUserId": "user_mnd40dg5ba766d",
+      "prizeAmount": 500,
+      "createdAt": "2026-03-30T11:33:20.294Z"
+    },
+    {
+      "id": "draw_mnd5eiu8587b57",
+      "month": 3,
+      "year": 2026,
+      "mode": "algorithmic_most",
+      "status": "simulation",
+      "winningNumbers": [
+        1,
+        2,
+        3,
+        4,
+        34
+      ],
+      "pool": {
+        "total": 0,
+        "fromSubscriptions": 0,
+        "rolloverFromPrev": 0,
+        "tiers": {
+          "match5": 0,
+          "match4": 0,
+          "match3": 0
+        },
+        "rolloverToNext": 0
+      },
+      "winners": {
+        "match5": [],
+        "match4": [],
+        "match3": []
+      },
+      "stats": {
+        "winners5": 0,
+        "winners4": 0,
+        "winners3": 0
+      },
+      "entries": 0,
+      "createdAt": "2026-03-30T12:12:19.806Z",
+      "publishedAt": null
+    },
+    {
+      "id": "draw_mnd5uxpsdf543c",
+      "month": 3,
+      "year": 2026,
+      "mode": "algorithmic_most",
+      "status": "published",
+      "winningNumbers": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "pool": {
+        "total": 79.6,
+        "fromSubscriptions": 79.6,
+        "rolloverFromPrev": 0,
+        "tiers": {
+          "match5": 31.84,
+          "match4": 27.86,
+          "match3": 19.9
+        },
+        "rolloverToNext": 0
+      },
+      "winners": {
+        "match5": [
+          {
+            "userId": "user_mnd5uxfq5ff848",
+            "matchCount": 5,
+            "amount": 31.84
+          }
+        ],
+        "match4": [],
+        "match3": []
+      },
+      "stats": {
+        "winners5": 1,
+        "winners4": 0,
+        "winners3": 0
+      },
+      "entries": 1,
+      "createdAt": "2026-03-30T12:25:05.583Z",
+      "publishedAt": "2026-03-30T12:25:05.591Z"
+    }
+  ],
+  "donations": [
+    {
+      "id": "don_mnd40dhx6f4eb8",
+      "userId": "user_mnd40dg5ba766d",
+      "charityId": "charity_junior_golf",
+      "subscriptionId": "sub_mnd40dhw016aba",
+      "amount": 2.9,
+      "createdAt": "2026-03-30T11:33:20.085Z"
+    },
+    {
+      "id": "don_mnd4egug6dc50a",
+      "userId": "user_mnd4egs1d3897b",
+      "charityId": "charity_junior_golf",
+      "subscriptionId": "sub_mnd4egugcc2e02",
+      "amount": 19.9,
+      "createdAt": "2026-03-30T11:44:17.609Z"
+    },
+    {
+      "id": "don_mnd4egulec92f2",
+      "userId": "user_mnd4egs1d3897b",
+      "charityId": "charity_junior_golf",
+      "subscriptionId": "sub_mnd4egul9b548f",
+      "amount": 199.9,
+      "createdAt": "2026-03-30T11:44:17.614Z"
+    },
+    {
+      "id": "don_mnd5eiob5b35b7",
+      "userId": "user_mnd5eine7a5175",
+      "charityId": "charity_junior_golf",
+      "amount": 29.85,
+      "type": "subscription_signup",
+      "subscriptionId": "sub_mnd5eio9917813",
+      "createdAt": "2026-03-30T12:12:19.595Z"
+    },
+    {
+      "id": "don_mnd5uxhi640500",
+      "userId": "user_mnd5uxfq5ff848",
+      "charityId": "charity_junior_golf",
+      "amount": 39.8,
+      "type": "subscription_signup",
+      "subscriptionId": "sub_mnd5uxhi4be7c7",
+      "createdAt": "2026-03-30T12:25:05.286Z"
+    },
+    {
+      "id": "don_mndbaq0t4f8be1",
+      "userId": "user_mndbaq0i596298",
+      "charityId": "charity_junior_golf",
+      "amount": 199.9,
+      "type": "subscription_signup",
+      "subscriptionId": "sub_mndbaq0t0fac2c",
+      "createdAt": "2026-03-30T14:57:20.189Z"
+    },
+    {
+      "id": "don_mndc114eb23f54",
+      "userId": "user_mndc1145415dae",
+      "charityId": "charity_junior_golf",
+      "amount": 199.9,
+      "type": "subscription_signup",
+      "subscriptionId": "sub_mndc114e42ede8",
+      "createdAt": "2026-03-30T15:17:47.631Z"
+    },
+    {
+      "id": "don_mne4hux19b8a5c",
+      "userId": "user_mne4huwk097de8",
+      "charityId": "charity_junior_golf",
+      "amount": 199.9,
+      "type": "subscription_signup",
+      "subscriptionId": "sub_mne4huwu6898c8",
+      "createdAt": "2026-03-31T04:34:41.989Z"
+    },
+    {
+      "id": "don_mne5fj4v245d5b",
+      "userId": "user_mne5fj4e63b7db",
+      "charityId": "charity_junior_golf",
+      "amount": 199.9,
+      "type": "subscription_signup",
+      "subscriptionId": "sub_mne5fj4t622bef",
+      "createdAt": "2026-03-31T05:00:53.023Z"
+    },
+    {
+      "id": "don_mne5xnof8205da",
+      "userId": "user_mne5xno52f00f9",
+      "charityId": "charity_junior_golf",
+      "amount": 19.9,
+      "type": "subscription_signup",
+      "subscriptionId": "sub_mne5xnof0a61be",
+      "createdAt": "2026-03-31T05:14:58.720Z"
+    },
+    {
+      "id": "don_mne8iv3v5718d2",
+      "userId": "user_mne8iv3jb3d1a7",
+      "charityId": "charity_junior_golf",
+      "amount": 199.9,
+      "type": "subscription_signup",
+      "subscriptionId": "sub_mne8iv3u6b5f6e",
+      "createdAt": "2026-03-31T06:27:27.355Z"
+    },
+    {
+      "id": "don_mneewitdf03981",
+      "userId": "user_mneewisx8a551e",
+      "charityId": "charity_junior_golf",
+      "amount": 199.9,
+      "type": "subscription_signup",
+      "subscriptionId": "sub_mneewitbbc8362",
+      "createdAt": "2026-03-31T09:26:02.305Z"
+    },
+    {
+      "id": "don_mnefmmnj836917",
+      "userId": "user_mne4huwk097de8",
+      "charityId": "charity_junior_golf",
+      "amount": 199.9,
+      "type": "subscription_signup",
+      "subscriptionId": "sub_mnefmmnicfdcba",
+      "createdAt": "2026-03-31T09:46:20.336Z"
+    },
+    {
+      "id": "don_mnefmqwsf418e9",
+      "userId": "user_mne4huwk097de8",
+      "charityId": "charity_junior_golf",
+      "amount": 19.9,
+      "type": "subscription_signup",
+      "subscriptionId": "sub_mnefmqwraf446b",
+      "createdAt": "2026-03-31T09:46:25.852Z"
+    },
+    {
+      "id": "don_mnefmrzg1f7313",
+      "userId": "user_mne4huwk097de8",
+      "charityId": "charity_junior_golf",
+      "amount": 199.9,
+      "type": "subscription_signup",
+      "subscriptionId": "sub_mnefmrzg618521",
+      "createdAt": "2026-03-31T09:46:27.244Z"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "txn_mnefmmnkddfb6a",
+      "userId": "user_mne4huwk097de8",
+      "subscriptionId": "sub_mnefmmnicfdcba",
+      "kind": "subscription_signup",
+      "amount": 1999,
+      "currency": "INR",
+      "status": "paid",
+      "reference": "signup_sub_mnefmmnicfdcba",
+      "createdAt": "2026-03-31T09:46:20.336Z"
+    },
+    {
+      "id": "txn_mnefmqws0223a5",
+      "userId": "user_mne4huwk097de8",
+      "subscriptionId": "sub_mnefmqwraf446b",
+      "kind": "subscription_signup",
+      "amount": 199,
+      "currency": "INR",
+      "status": "paid",
+      "reference": "signup_sub_mnefmqwraf446b",
+      "createdAt": "2026-03-31T09:46:25.852Z"
+    },
+    {
+      "id": "txn_mnefmrzgf04324",
+      "userId": "user_mne4huwk097de8",
+      "subscriptionId": "sub_mnefmrzg618521",
+      "kind": "subscription_signup",
+      "amount": 1999,
+      "currency": "INR",
+      "status": "paid",
+      "reference": "signup_sub_mnefmrzg618521",
+      "createdAt": "2026-03-31T09:46:27.244Z"
+    }
+  ],
+  "winnerClaims": [
+    {
+      "id": "claim_mnd5uxpz8a1a0e",
+      "drawId": "draw_mnd5uxpsdf543c",
+      "userId": "user_mnd5uxfq5ff848",
+      "matchCount": 5,
+      "amount": 31.84,
+      "status": "approved",
+      "payoutStatus": "pending",
+      "proofUrl": null,
+      "proofUploadedAt": null,
+      "reviewedBy": "user_mnd40cw4c4493c",
+      "reviewedAt": "2026-03-30T12:25:05.613Z",
+      "payoutCompletedAt": null,
+      "createdAt": "2026-03-30T12:25:05.592Z"
+    }
+  ],
+  "settings": {
+    "jackpotRollover": 0
+  }
+}

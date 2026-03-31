@@ -1,0 +1,14 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  background: #f1f4f0;
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+}
